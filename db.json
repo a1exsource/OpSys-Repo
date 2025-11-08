@@ -1,0 +1,47 @@
+
+{
+    "systems": [
+        {
+            "id": "aircraft",
+            "name": "Aircraft",
+            "categories": [
+                {
+                    "id":"cargo_aircraft",
+                    "name":"Cargo Aircraft",
+                    "types": [
+                        {
+                            "id": "c130",
+                            "name": "Lockheed C-130 Hercules",
+                            "manufacturer": "Lockheed Martin",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"c17",
+                            "name":"Boeing C-17 Globemaster III",
+                            "manufacturer": "Boeing",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        }
+                        
+                        
+                        
+
+                    ]
+                }
+            ]
+        }
+    ]
+}
