@@ -6,6 +6,101 @@
             "name": "Aircraft",
             "categories": [
                 {
+                    "id":"attack_aircraft",
+                    "name":"Attack Aircraft",
+                    "types": [
+                        {
+                            "id":"a10",
+                            "name":"Fairchild Republic A-10 Thunderbolt II",
+                            "manufacturer":"Fairchild Republic",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"ac130j",
+                            "name":"Lockheed AC-130J Ghostrider",
+                            "manufacturer":"Lockheed Martin",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"oa1k",
+                            "name":"Air Tractor L3Harris OA-1K Skyraider II",
+                            "manufacturer":"Air Tractor",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+
+
+                        }
+                     
+                    ]
+                },
+                {
+                    "id":"bomber_aircraft",
+                    "name":"Bomber Aircraft",
+                    "types": [
+                        {
+                            "id":"b1b",
+                            "name":"Rockwell B-1B Lancer",
+                            "manufacturer":"Rockwell",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+
+                        },
+                        {
+                            "id":"b2",
+                            "name":"Northrop Grumman B-2 Spirit",
+                            "manufacturer":"Northrop Grumman",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+
+                        },
+                        {
+                            "id":"b52h",
+                            "name":"Boeing B-52H Stratofortress",
+                            "manufacturer":"Boeing",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "id":"cargo_aircraft",
                     "name":"Cargo Aircraft",
                     "types": [
@@ -34,13 +129,698 @@
 
                                 }
                             ]
+                        },
+                        {
+                            "id":"c5m",
+                            "name":"Lockheed C-5M Super Galaxy",
+                            "manufacturer": "Lockheed Martin",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+
+                        },
+                        {
+                            "id":"c12",
+                            "name":"Beechcraft C-12 Huron",
+                            "manufacturer": "Beechcraft",
+                            "attributes": {
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+
+                        },
+                        {
+                            "id":"c146a",
+                            "name":"Dornier C-146A Wolfhound",
+                            "manufacturer": "Dornier",
+                            "attributes": {
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"cv22b",
+                            "name":"Bell Boeing CV-22B Osprey",
+                            "manufacturer": "Bell Boeing",
+                            "attributes": {
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
                         }
-                        
+                    
+
                         
                         
 
                     ]
+                },
+                {
+                    "id":"electronic_warfare_aircraft",
+                    "name":"Electronic Warfare Aircraft",
+                    "types": [
+                        {
+                            "id":"e3",
+                            "name":"Boeing E-3 Sentry",
+                            "manufacturer":"Boeing",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"e4b",
+                            "name":"Boeing E-4B Nightwatch",
+                            "manufacturer":"Boeing",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"e9a",
+                            "name":"Boeing E-9A Widget",
+                            "manufacturer":"Boeing",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"ea37b",
+                            "name":"L3Harris EA-37B Compass Call",
+                            "manufacturer":"L3Harris",
+                            "attributes": {
+
+                            },  
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"ec130h",
+                            "name":"Lockheed EC-130H Compass Call",
+                            "manufacturer":"Lockheed Martin",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+
+                        },
+                        {
+                            "id":"ec130j",
+                            "name":"Lockheed EC-130J Commando Solo",
+                            "manufacturer":"Lockheed Martin",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"fighter_aircraft",
+                    "name":"Fighter Aircraft",
+                    "types": [
+                        {
+                            "id":"f15c",
+                            "name":"McDonnell Douglas F-15C Eagle",
+                            "manufacturer":"McDonnell Douglas",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"f15d",
+                            "name":"McDonnell Douglas F-15D Eagle",
+                            "manufacturer":"McDonnell Douglas",
+                            "attributes": {
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"f15e",
+                            "name":"McDonnell Douglas F-15E Strike Eagle",
+                            "manufacturer":"McDonnell Douglas",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"f15ex",
+                            "name":"Boeing F-15EX Eagle II",
+                            "manufacturer":"Boeing",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"f16c",
+                            "name":"General Dynamics F-16C Fighting Falcon",
+                            "manufacturer":"General Dynamics",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"f16d",
+                            "name":"General Dynamics F-16D Fighting Falcon",
+                            "manufacturer":"General Dynamics",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"f22a",
+                            "name":"Lockheed Martin F-22A Raptor",
+                            "manufacturer":"Lockheed Martin",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"f35a",
+                            "name":"Lockheed Martin F-35A Lightning II",
+                            "manufacturer":"Lockheed Martin",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"search_and_rescue_aircraft",
+                    "name":"Search and Rescue Aircraft",
+                    "types": [
+                        {
+                            "id":"hc130",
+                            "name":"Lockheed HC-130 Hercules",
+                            "manufacturer":"Lockheed Martin",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"hc130j",
+                            "name":"Lockheed HC-130J Combat King II",
+                            "manufacturer":"Lockheed Martin",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"hh60g",
+                            "name":"Sikorsky HH-60G Pave Hawk",
+                            "manufacturer":"Sikorsky",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            "id":"hh60w",
+                            "name":"Sikorsky HH-60W Jolly Green II",
+                            "manufacturer":"Sikorsky",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
                 }
+                ,
+                {
+                    "id":"tankers_aircraft",
+                    "name":"Tankers Aircraft",
+                    "types": [
+                        {
+                            "id":"kc46a",
+                            "name":"Boeing KC-46A Pegasus",
+                            "manufacturer":"Boeing",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+
+                        },
+                        {
+                            "id":"kc135r",
+                            "name":"Boeing KC-135R Stratotanker",
+                            "manufacturer":"Boeing",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+
+                        },
+                        {
+                            "id":"kc135t",
+                            "name":"Boeing KC-135T Stratotanker",
+                            "manufacturer":"Boeing",
+                            "attributes": {
+
+                            },
+                            "subsystems": [
+                                {
+
+                                }
+                            ]
+
+                        }
+                        
+                    ]
+                }
+                ,
+                {
+                    "id":"reconnaissance_aircraft",
+                    "name":"Reconnaissance Aircraft",
+                    "types": [
+                        {
+                            "id":"rf4e",
+                            "name":"McDonnell Douglas RF-4E Phantom II",
+                            "manufacturer":"McDonnell Douglas",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"rc135s",
+                            "name":"RC-135S Cobra Ball",
+                            "manufacturer":"Boeing",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"rc135u",
+                            "name":"RC-135U Combat Sent",
+                            "manufacturer":"Boeing",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"rc135v",
+                            "name":"RC-135V Rivet Joint",
+                            "manufacturer":"Boeing",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"rc135w",
+                            "name":"RC-135W Rivet Joint",
+                            "manufacturer":"Boeing",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"rq4b",
+                            "name":"RQ-4B Global Hawk",
+                            "manufacturer":"Northrop Grumman",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"rq11",
+                            "name":"RQ-11 Raven",
+                            "manufacturer":"AeroVironment",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"rq170",
+                            "name":"RQ-170 Sentinel",
+                            "manufacturer":"Lockheed Martin",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"u2s",
+                            "name":"Lockheed U-2S \"Dragon Lady\"",
+                            "manufacturer":"Lockheed Martin",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        }
+                    ]
+                },
+                {
+                    "id":"trainer_aircraft",
+                    "name":"Trainer Aircraft",
+                    "types": [
+                        {
+                            "id":"t1a_jayhawk",
+                            "name":"T-1A Jayhawk",
+                            "manufacturer":"Raytheon/Beechcraft",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"t6a_texan_ii",
+                            "name":"T-6A Texan II",
+                            "manufacturer":"Beechcraft",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"t38a",
+                            "name":"T-38A Talon",
+                            "manufacturer":"Northrop",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"t38b",
+                            "name":"AT-38B Talon",
+                            "manufacturer":"Northrop",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"t38c",
+                            "name":"T-38C Talon",
+                            "manufacturer":"Northrop",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"t41d",
+                            "name":"T-41D Mescalero",
+                            "manufacturer":"Cessna",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"t51a",
+                            "name":"T-51A",
+                            "manufacturer":"",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"t53a",
+                            "name":"T-53A Kadet II",
+                            "manufacturer":"",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"tc135w",
+                            "name":"TC-135W",
+                            "manufacturer":"Boeing",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"th1h",
+                            "name":"TH-1H Iroquois",
+                            "manufacturer":"Bell",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"tu2s",
+                            "name":"TU-2S Dragon Lady",
+                            "manufacturer":"Lockheed Martin",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id":"a29",
+                            "name":"A-29 Super Tucano",
+                            "manufacturer":"Embraer",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        }
+                    ]
+                },
+                {
+                    "id": "tg_trainer_gliders",
+                    "name": "Trainer Gliders",
+                    "types": [
+                        {
+                            "id": "tg15a",
+                            "name": "TG-15A",
+                            "manufacturer": "",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "tg15b",
+                            "name": "TG-15B",
+                            "manufacturer": "",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "tg16",
+                            "name": "TG-16",
+                            "manufacturer": "",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        }
+                    ]
+                },
+                {
+                    "id": "utility_aircraft",
+                    "name": "Utility",
+                    "types": [
+                        {
+                            "id": "u28a",
+                            "name": "U-28A Draco",
+                            "manufacturer": "Pilatus",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "uh1n",
+                            "name": "UH-1N Iroquois",
+                            "manufacturer": "Bell",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "uv18b",
+                            "name": "UV-18B Twin Otter",
+                            "manufacturer": "De Havilland Canada",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        }
+                    ]
+                },
+                {
+                    "id": "vip_transport",
+                    "name": "VIP Staff Transport",
+                    "types": [
+                        {
+                            "id": "vc25a",
+                            "name": "VC-25A (Air Force One)",
+                            "manufacturer": "Boeing",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "c21a",
+                            "name": "C-21A Learjet",
+                            "manufacturer": "Learjet",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "c32a",
+                            "name": "C-32A",
+                            "manufacturer": "Boeing",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "c32b",
+                            "name": "C-32B",
+                            "manufacturer": "Boeing",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "c37a",
+                            "name": "C-37A Gulfstream V",
+                            "manufacturer": "Gulfstream",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "c37b",
+                            "name": "C-37B Gulfstream G550",
+                            "manufacturer": "Gulfstream",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "c40b",
+                            "name": "C-40B",
+                            "manufacturer": "Boeing",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "c40c",
+                            "name": "C-40C",
+                            "manufacturer": "Boeing",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        }
+                    ]
+                },
+                {
+                    "id": "weather_reconnaissance",
+                    "name": "Weather Reconnaissance",
+                    "types": [
+                        {
+                            "id": "wc130j",
+                            "name": "WC-130J Hurricane Hunter",
+                            "manufacturer": "Lockheed Martin",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "wc135c",
+                            "name": "WC-135C Constant Phoenix",
+                            "manufacturer": "Boeing",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "wc135w",
+                            "name": "WC-135W Constant Phoenix",
+                            "manufacturer": "Boeing",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        }
+                    ]
+                },
+                {
+                    "id": "undesignated_foreign_aircraft",
+                    "name": "Undesignated foreign aircraft",
+                    "types": [
+                        {
+                            "id": "cn235_100",
+                            "name": "CN-235-100",
+                            "manufacturer": "CASA/TAI",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "grob_g120tp",
+                            "name": "Grob G 120TP",
+                            "manufacturer": "Grob",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        },
+                        {
+                            "id": "mil_mi17",
+                            "name": "Mil Mi-17",
+                            "manufacturer": "Mil",
+                            "attributes": {},
+                            "subsystems": [ { } ]
+                        }
+                    ]
+                }
+
             ]
         }
     ]
